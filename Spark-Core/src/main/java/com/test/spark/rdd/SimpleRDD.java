@@ -17,6 +17,8 @@ public class SimpleRDD {
 		 
 		 System.out.println("Count : " + rdd.count() );
 		 
+		 System.out.println("First Element : "  + rdd.first() );
+		 
 		 sc.stop();
 	}
 
